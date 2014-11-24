@@ -1,9 +1,9 @@
 class CreateDevices < ActiveRecord::Migration
   def change
     create_table :devices do |t|
-      t.references :athlete, index: true
       t.string :udid
-      t.references :program, index: true
+      t.references :athlete, index: true
+      t.references :team, index: true
 
       t.timestamps null: false
     end

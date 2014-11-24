@@ -2,7 +2,7 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
   def setup
-    @base_title = "Ruby on Rails Sample App"
+    @base_title = "8 Count"
   end
 
   test "should get home" do

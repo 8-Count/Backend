@@ -1,3 +1,3 @@
 class Athlete < ActiveRecord::Base
-  belongs_to :listener
+  belongs_to :user
 end

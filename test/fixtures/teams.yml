@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  sport_id: 
-  organization_id: 
+  client_id: 
+  sport: MyString
 
 two:
   name: MyString
-  sport_id: 
-  organization_id: 
+  client_id: 
+  sport: MyString

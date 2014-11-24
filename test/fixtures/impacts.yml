@@ -1,23 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  athlete_id: 
   x: 1.5
   'y': 1.5
   z: 1.5
-  xaccel: 1.5
-  yaccel: 1.5
-  zaccel: 1.5
-  timelog: 2014-11-14 22:48:46
-  athlete_id: 
-  concussedstatus: 1
+  xrot: 1.5
+  yrot: 1.5
+  zrot: 1.5
+  timeOccurred: 2014-11-24 13:21:11
+  concussionStatus: 1
 
 two:
+  athlete_id: 
   x: 1.5
   'y': 1.5
   z: 1.5
-  xaccel: 1.5
-  yaccel: 1.5
-  zaccel: 1.5
-  timelog: 2014-11-14 22:48:46
-  athlete_id: 
-  concussedstatus: 1
+  xrot: 1.5
+  yrot: 1.5
+  zrot: 1.5
+  timeOccurred: 2014-11-24 13:21:11
+  concussionStatus: 1
