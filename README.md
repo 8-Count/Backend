@@ -1,9 +1,5 @@
-# Ruby on Rails Tutorial: Sample Application
+# 8 Count Web App
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
+This is the web application for 8 Count.
 
 Created by Samir Chaudhry
-
-Hello
