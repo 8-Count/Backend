@@ -4,3 +4,8 @@ samir:
   name: Samir Chaudhry
   email: schaudhry123@gmail.com
   password_digest: <%= User.digest('password') %>
+
+deion:
+  name: Deion Sanders
+  email: primetime@gmail.com
+  password_digest: <%= User.digest('password') %>
