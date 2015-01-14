@@ -11,6 +11,11 @@ deion:
   email: primetime@gmail.com
   password_digest: <%= User.digest('password') %>
 
+archer:
+  name: Sterling Archer
+  email: archer@example.org
+  password_digest: <%= User.digest('password') %>
+
 lana:
   name: Lana Kane
   email: hands@example.gov

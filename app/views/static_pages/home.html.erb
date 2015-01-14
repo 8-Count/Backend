@@ -1,10 +1,27 @@
-<div class="center jumbotron">
-  <h1>8 Count</h1>
-  <h2>This is the dashboard for 8 Count.</h2>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+	<div class="center jumbotron">
+	  <h1>8 Count</h1>
+	  <h2>This is the dashboard for 8 Count.</h2>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+	  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+	</div>
 
-<p>Temp photo, used by 8 Count fragrances</p>
-<%= link_to image_tag("http://cdn.shopify.com/s/files/1/0174/7530/t/1/assets/logo.png?663", alt: "8 Count"),
-                      'http://8-count.myshopify.com/' %>
+	<p>Temp photo, used by 8 Count fragrances</p>
+	<%= link_to image_tag("http://cdn.shopify.com/s/files/1/0174/7530/t/1/assets/logo.png?663", alt: "8 Count"),
+	                      'http://8-count.myshopify.com/' %>
+<% end %>
