@@ -15,7 +15,7 @@ class UsersControllerTest < ActionController::TestCase
   test "should get new" do
     get :new
     assert_response :success
-    assert_select "title", "Sign up | 8 Count"
+    assert_select "title", "Sign up | Sudden Impact"
   end
 
   test "should redirect edit when not logged in" do
